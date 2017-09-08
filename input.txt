@@ -1,0 +1,16 @@
+int avg(int num1,int num2,int num3);
+int sum(int a,int b,int c);
+main(){
+int ans;
+ans=avg(20,30,40);
+print("The average of 20, 30 & 40 is");
+print(ans);
+}
+int avg(int a,int b,int c){
+int add;
+add=sum(a,b,c);
+return(add|3);
+}
+int sum(int a,int b,int c){
+return(a+b+c);
+}
